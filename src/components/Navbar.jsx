@@ -22,12 +22,12 @@ const Navbar = () => {
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
-            <li className="nav-item fs-4 fw-normal">
+            <li className="nav-item fs-5 fw-normal">
               <NavLink className="nav-items me-3" aria-current="page" to="/">
                 Recipes
               </NavLink>
             </li>
-            <li className="nav-item fs-4 fw-normal">
+            <li className="nav-item fs-5 fw-normal">
               <NavLink
                 className="nav-items"
                 aria-current="page"
