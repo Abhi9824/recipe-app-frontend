@@ -31,7 +31,7 @@ const RecipeDetails = () => {
                   {recipeData.ingredients.join(", ")}
                 </p>
 
-                <h3>Ingredients:</h3>
+                <h3>Instructions:</h3>
                 <ol className="fw-normal">
                   {recipeData.instructions.map((inst, index) => (
                     <li className="fs-5 fw-normal" key={index}>
